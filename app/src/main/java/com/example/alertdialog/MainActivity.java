@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setMessage("First Alert Dialog");
         builder.setTitle("Alert !");
+
         builder.show();
     }
 
